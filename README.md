@@ -1,4 +1,4 @@
-# HyprV4
+# HyprV4 [YT Video](https://www.youtube.com/watch?v=whAi_y_LfEE&ab_channel=SolDoesTech)
 This is V4 of the Hyprland install script
 
 It contains a collection of dot config files for hyprland with a simple install script.
