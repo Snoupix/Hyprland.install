@@ -212,8 +212,7 @@ echo -en "$CNT - Cloning and running my config script."
 sudo git clone https://github.com/Snoupix/maiconf
 sudo chown -R snoupix:snoupix ./maiconf
 cd ./maiconf
-cargo run --release -- --github-token $GHPAT --gitlab-token $GLPAT &>> $INSTLOG &
-show_progress $!
+cargo run --release -- --github-token $GHPAT --gitlab-token $GLPAT >> $INSTLOG
 echo -e "\e[1A\e[K$COK - Script executed, config files created (logs are in install.log)."
 
 ### Install all of the above pacakges ####
