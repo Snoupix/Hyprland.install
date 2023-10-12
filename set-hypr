@@ -53,7 +53,6 @@ install_stage=(
     thunar 
     btop
     chromium
-    thunderbird
     mpv
     pamixer 
     pavucontrol 
@@ -67,6 +66,7 @@ install_stage=(
     file-roller
     starship 
     papirus-icon-theme 
+    ttf-meslo-nerd
     ttf-jetbrains-mono-nerd 
     noto-fonts-emoji 
     lxappearance 
