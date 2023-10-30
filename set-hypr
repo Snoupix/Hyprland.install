@@ -206,7 +206,7 @@ show_progress $!
 echo -e "\e[1A\e[K$COK - rustup installed."
 rustup default stable
 read -rep $'[\e[1;33mACTION\e[0m] - Write down your Github PAT ' GHPAT
-read -rep $'[\e[1;33mACTION\e[0m] - Write down your Gitlab PAT (unnecessary, write anything if you want) ' GLPAT
+read -rep $'[\e[1;33mACTION\e[0m] - Write down your Gitlab PAT ' GLPAT
 echo -en "$CNT - Cloning and running my config script."
 sudo git clone https://github.com/Snoupix/maiconf
 sudo chown -R snoupix:snoupix ./maiconf
